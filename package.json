@@ -1,14 +1,16 @@
 
 {
-  "name": "dompetku",
-  "version": "1.0.0",
-  "description": "Personal finance management application",
-  "main": "server.js",
-  "scripts": {
-    "start": "node server.js"
-  },
-  "engines": {
-    "node": ">=22"
-  },
-  "private": true
-}
+    "name": "dompetku",
+    "version": "1.0.0",
+    "description": "Personal Finance Management Application",
+    "private": true,
+    "main": "server.js",
+    "scripts": {
+      "start": "node server.js",
+      "seed": "node seed-iren.js"
+    },
+    "engines": {
+      "node": ">=22.13.0"
+    }
+  }
+  
